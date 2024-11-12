@@ -1,0 +1,23 @@
+{
+  "name": "node-pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "_moduleAliases": {
+    "@Root": "."
+  },
+  "scripts": {
+    "dev": "nodemon App.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^5.0.1",
+    "helmet": "^8.0.0",
+    "module-alias": "^2.2.3"
+  }
+}
